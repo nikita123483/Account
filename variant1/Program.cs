@@ -10,6 +10,10 @@ namespace variant1
     {
         static void Main(string[] args)
         {
+            Account obj = new Account(); 
+            obj.Input();
+            Console.Write(obj);
+            Console.WriteLine();
         }
     }
 }
